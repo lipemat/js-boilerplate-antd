@@ -1,5 +1,5 @@
 {
-  "name": "js-boilerplate-antd",
+  "name": "@lipemat/js-boilerplate-antd",
   "description": "Ant Design extension for @lipemat/js-boilerplate",
   "version": "1.0.0-beta",
   "main": "index.js",

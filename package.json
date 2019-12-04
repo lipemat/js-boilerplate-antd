@@ -1,0 +1,29 @@
+{
+  "name": "js-boilerplate-antd",
+  "description": "Ant Design extension for @lipemat/js-boilerplate",
+  "version": "1.0.0-beta",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lipemat/js-boilerplate-antd.git"
+  },
+  "dependencies": {
+    "babel-plugin-import": "^1.12.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0"
+  },
+  "devDependencies": {
+    "@lipemat/js-boilerplate": ">=5.2.0"
+  },
+  "peerDependencies": {
+    "antd": ">=3.22.0",
+    "@lipemat/js-boilerplate": ">=5.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/lipemat/js-boilerplate-antd/issues"
+  },
+  "homepage": "https://github.com/lipemat/js-boilerplate-antd#readme"
+}

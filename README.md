@@ -16,5 +16,4 @@ Ant Design extension for [@lipemat/js-boilerplate](https://github.com/lipemat/js
 yarn add @lipemat/js-boilerplate-antd
 ```
 Add the following configuration files to your project (examples in templates directory).
-1. ant-icons.js
 2. ant-theme.js

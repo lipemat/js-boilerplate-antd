@@ -5,13 +5,6 @@ let rules = Object.assign( [], webpackConfig.module.rules );
 let resolve = Object.assign( {}, webpackConfig.resolve );
 let noParse = Object.assign( [], webpackConfig.module.noParse );
 
-/**
- * Prevent Ant for adding all 500K of icons to the bundle
- * @link https://github.com/ant-design/ant-design/issues/12011#issuecomment-481656550
- */
-resolve.alias = Object.assign( {}, resolve.alias );
-resolve.alias[ '@ant-design/icons/lib/dist$' ] = path.resolve( packageConfig.workingDirectory, './src/globals/ant-icons.js' );
-
 // Add a loader to support theming of Ant components.
 // @link https://ant.design/docs/react/customize-theme
 rules.push( {

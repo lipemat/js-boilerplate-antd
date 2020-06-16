@@ -14,13 +14,6 @@ for ( let i = 0; i < plugins.length; i++ ) {
 	}
 }
 
-resolve.alias = Object.assign( {}, resolve.alias );
-/**
- * Prevent Ant for adding all 500K of icons to the bundle
- * @link https://github.com/ant-design/ant-design/issues/12011#issuecomment-481656550
- */
-resolve.alias[ '@ant-design/icons/lib/dist$' ] = path.resolve( packageConfig.workingDirectory, './src/globals/ant-icons.js' );
-
 // Add a loader to support theming of Ant components.
 // @link https://ant.design/docs/react/customize-theme
 rules.push( {

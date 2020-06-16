@@ -1,7 +1,5 @@
 # JS Boilerplate Ant Design
 
-### Currently, in Beta!! Use at your risk!
-
 <p>
 <a href="https://www.npmjs.com/package/@lipemat/js-boilerplate-antd">
 <img alt="npm" src="https://img.shields.io/npm/v/@lipemat/js-boilerplate-antd.svg">

@@ -1,6 +1,6 @@
 # JS Boilerplate Ant Design
 
-### Currently in Beta!! Use at your risk!
+### Currently, in Beta!! Use at your risk!
 
 <p>
 <a href="https://www.npmjs.com/package/@lipemat/js-boilerplate-antd">
@@ -15,3 +15,6 @@ Ant Design extension for [@lipemat/js-boilerplate](https://github.com/lipemat/js
 ```bash
 yarn add @lipemat/js-boilerplate-antd
 ```
+Add the following configuration files to your project (examples in templates directory).
+1. ant-icons.js
+2. ant-theme.js

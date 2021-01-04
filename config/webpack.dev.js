@@ -21,8 +21,10 @@ rules.push( {
 		{
 			loader: 'less-loader',
 			options: {
-				javascriptEnabled: true,
-				modifyVars: require( path.resolve( packageConfig.workingDirectory, './src/globals/ant-theme.js' ) )
+				lessOptions: {
+					javascriptEnabled: true,
+					modifyVars: require( path.resolve( packageConfig.workingDirectory, './src/globals/ant-theme.js' ) )
+				}
 			}
 		}
 	]

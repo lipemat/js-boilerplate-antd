@@ -24,16 +24,16 @@ rules.push( {
 			loader: 'css-loader',
 			options: {
 				modules: false,
-				sourceMap: false,
-				ignoreOrder: true
+				sourceMap: false
 			}
 		},
 		{
 			loader: 'less-loader',
 			options: {
-				javascriptEnabled: true,
-				modifyVars: require( path.resolve( packageConfig.workingDirectory, './src/globals/ant-theme.js' ) ),
-				ignoreOrder: true
+				lessOptions: {
+					javascriptEnabled: true,
+					modifyVars: require( path.resolve( packageConfig.workingDirectory, './src/globals/ant-theme.js' ) )
+				}
 			}
 		}
 	]

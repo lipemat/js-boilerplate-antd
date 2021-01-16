@@ -17,7 +17,7 @@
     "less-loader": "^7.2.1"
   },
   "devDependencies": {
-    "@lipemat/js-boilerplate": ">=6.0.0"
+    "@lipemat/js-boilerplate": "^6.0.0"
   },
   "peerDependencies": {
     "@lipemat/js-boilerplate": ">=6.0.0"

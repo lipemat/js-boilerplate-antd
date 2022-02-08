@@ -4,7 +4,6 @@ const CssMinimizerPlugin = require( "css-minimizer-webpack-plugin" );
 const webpackConfig = require( '@lipemat/js-boilerplate/config/webpack.dist' );
 const packageConfig = require( '@lipemat/js-boilerplate/helpers/package-config' );
 let rules = Object.assign( [], webpackConfig.module.rules );
-let resolve = Object.assign( {}, webpackConfig.resolve );
 let noParse = Object.assign( [], webpackConfig.module.noParse );
 let plugins = Object.assign( [], webpackConfig.plugins );
 let optimization = Object.assign( {}, webpackConfig.optimization || {} );
@@ -56,6 +55,5 @@ module.exports = {
 		rules: rules
 	},
 	optimization: optimization,
-	plugins: plugins,
-	resolve: resolve
+	plugins: plugins
 };

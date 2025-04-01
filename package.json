@@ -2,7 +2,6 @@
   "name": "@lipemat/js-boilerplate-antd",
   "description": "Ant Design extension for @lipemat/js-boilerplate",
   "version": "2.1.1",
-  "main": "index.js",
   "license": "MIT",
   "private": false,
   "sideEffects": false,
@@ -13,6 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/lipemat/js-boilerplate-antd.git"
   },
+  "files": [
+    "config/",
+    "templates/"
+  ],
   "dependencies": {
     "antd": "^4.9.4",
     "babel-plugin-import": "^1.12.0",
